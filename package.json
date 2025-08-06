@@ -1,0 +1,15 @@
+{
+  "name": "whatsapp-ticket-bot",
+  "version": "1.0.0",
+  "description": "Bot WhatsApp per vendita biglietti",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@open-wa/wa-automate": "^4.50.0",
+    "qrcode": "^1.5.3",
+    "pdfkit": "^0.13.0",
+    "fs-extra": "^11.1.1"
+  }
+}
